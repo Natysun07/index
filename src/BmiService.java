@@ -1,5 +1,7 @@
 public class BmiService {
     public double calculate(double a, double b) {
-        return a / (b * b);
+        double calculation;
+        calculation = a / (b * b);
+        return calculation;
     }
 }
